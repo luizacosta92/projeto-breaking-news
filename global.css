@@ -39,3 +39,17 @@ a:hover {
 h1, h2, h3 {
   font: inherit;
 }
+
+.container { /*Colocando largura máxima para */
+  max-widht: 1280px;
+  padding-inline: 32px; /*cria espaço no eixo horizontal*/
+  margin-inline-start: auto; /*cria margem no eixo horizontal*/
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-flow-column {
+  grid-auto-flow: column;
+}
